@@ -1,0 +1,136 @@
+{
+  "packages": [
+    {
+      "name": "custom_arduinos",
+      "maintainer": "Stuyvenstein",
+      "websiteURL": "https://elitedigital.co.za",
+      "email": "admin@elitedigital.co.za",
+      "help": {
+        "online": "https://elitedigital.co.za"
+      },
+      "platforms": [
+        {
+          "category": "Arduino",
+          "name": "Custom Arduinos",
+          "url": "https://github.com/Elite-Digital-South-Africa/Custom-Arduino-Package/raw/main/custom_arduinos-1.0.3.zip",
+          "version": "1.0.3",
+          "architecture": "avr",
+          "archiveFileName": "custom_arduinos-1.0.3.zip",
+          "size": "184952",
+          "checksum": "SHA-256:3216792e3fcb85b14e747ae4122fd0c90acb97cba76178c934d5ca6905c3352a",
+          "boards": [
+            {
+              "name": "Arduino Uno 3.3V"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino2"
+            }
+          ],
+          "help": {
+            "online": "https://elitedigital.co.za"
+          }
+        }
+      ],
+      "tools":[
+        {
+          "name": "avrdude",
+          "version": "6.3.0-arduino2",
+          "systems": [
+            {
+              "size": "643484",
+              "checksum": "SHA-256:26af86137d8a872f64d217cb262734860b36fe26d6d34faf72e951042f187885",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avrdude-6.3.0-arduino2-armhf-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino2-armhf-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "653968",
+              "checksum": "SHA-256:32525ea3696c861030e1a6006a5f11971d1dad331e45bfa68dac35126476b04f",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "avrdude-6.3.0-arduino2-i386-apple-darwin11.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino2-i386-apple-darwin11.tar.bz2"
+            },
+            {
+              "size": "745081",
+              "checksum": "SHA-256:9635af5a35bdca11804c07582d7beec458140fb6e3308168c3deda18dc6790fa",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avrdude-6.3.0-arduino2-x86_64-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino2-x86_64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "731802",
+              "checksum": "SHA-256:790b6cb610c48e73a2a0f65dcee9903d2fd7f1b0a1f75008a9a21f50a60c7251",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avrdude-6.3.0-arduino2-i686-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino2-i686-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "608496",
+              "checksum": "SHA-256:8eaf98ea41fbd4450483488ef31710cbcc43c0412dbc8e1e1b582feaab6eca30",
+              "host": "i686-mingw32",
+              "archiveFileName": "avrdude-6.3.0-arduino2-i686-w64-mingw32.zip",
+              "url": "http://downloads.arduino.cc/tools/avrdude-6.3.0-arduino2-i686-w64-mingw32.zip"
+            }
+          ]
+        },
+        {
+          "name": "avr-gcc",
+          "version": "7.3.0-atmel3.6.1-arduino5",
+          "systems": [
+            {
+              "size": "34462042",
+              "checksum": "SHA-256:f4acd5531c6b82c715e2edfa0aadb13fb718b4095b3ea1aa1f7fbde680069639",
+              "host": "arm-linux-gnueabihf",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-arduino5-arm-linux-gnueabihf.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-7.3.0-atmel3.6.1-arduino5-arm-linux-gnueabihf.tar.bz2"
+            },
+            {
+              "size": "39381972",
+              "checksum": "SHA-256:dd9c70190be370a44fb47dab1514de6d8852b861dfa527964b65c740d8d50c10",
+              "host": "aarch64-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-arduino5-aarch64-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-7.3.0-atmel3.6.1-arduino5-aarch64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "38492678",
+              "checksum": "SHA-256:f48706317f04452544ab90e75bd1bb193f8af2cb1002f53aa702f27202c1b38f",
+              "host": "x86_64-apple-darwin14",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-arduino5-x86_64-apple-darwin14.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-7.3.0-atmel3.6.1-arduino5-x86_64-apple-darwin14.tar.bz2"
+            },
+            {
+              "size": "53727984",
+              "checksum": "SHA-256:6d4a5d089a36e5b5252befc73da204555b49e376ce7577ee19ca7f028b295830",
+              "host": "i686-mingw32",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-arduino5-i686-w64-mingw32.zip",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-7.3.0-atmel3.6.1-arduino5-i686-w64-mingw32.zip"
+            },
+            {
+              "size": "38710087",
+              "checksum": "SHA-256:2ff12739d7ed09688d6b3c2c126e8df69b5bda1a07ab558799f0e576571e0e1d",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-arduino5-i686-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-7.3.0-atmel3.6.1-arduino5-i686-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "39114120",
+              "checksum": "SHA-256:3effed8ffa1978b6e4a46f1aa2acc629e440b4d77244f71f9b79a916025206fb",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "avr-gcc-7.3.0-atmel3.6.1-arduino5-x86_64-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-7.3.0-atmel3.6.1-arduino5-x86_64-pc-linux-gnu.tar.bz2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
